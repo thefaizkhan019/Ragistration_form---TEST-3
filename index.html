@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>`
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajat_Sonaniya_Simple_Web_Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>SIMPLE WEB FORM</h1>
+        <div class="container">
+            <h3>Please Fill Out The Details Below</h3>
+            <hr>
+
+            <form action="submit.html" class="formContainer">
+
+                <div class="nameContainer child">
+
+                    <label for="name">Name :</label>
+                    <input required type="text" id="name">
+                </div>
+
+                <div class="emailcontainer child">
+
+                    <label for="email">E-mail:</label>
+                    <input required type="email" id="email">
+                </div>
+
+                <div class="phoneContainer child">
+
+
+                    <label for="phone">Phone: </label>
+                    <input required type="number" placeholder="5102200521" id="phone">
+                </div>
+
+                <div class="addContainer child">
+
+                    
+                    <label for="address">Address: </label>
+                    <input required type="text" id="address">
+                </div>
+
+                <div class="qualificationContainer child">
+
+                    
+                    <label for="qualification">Qualification:</label>
+                    <select required id="qualification">
+                        <option value="">Select</option>
+                        <option value="Bachelors in Science">Bachelors in Science</option>
+                        <option value="Masters in Science">Masters in Science</option>
+                        <option value="Doctorate">Doctorate</option>
+                        <option value="High School Graduate">High School Graduate</option>
+                    </select>
+                </div>
+
+                <div class="genderContainer child">
+
+                    
+                    <span><strong>Gender:</strong>&nbsp; </span>
+                    <label for="male"> Male</label>
+                    <input type="radio" name="Gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="Gender" id="female">
+                </div>
+
+            <div class="msgContainer child">
+
+                <label for="message">Message &nbsp;</label>
+                <textarea required name="message" id="message" cols="36" rows="5"></textarea>
+            </div>
+
+                <div class="consentContainer child">
+
+                
+                    <input required type="checkbox" name="agree" id="agree">
+                    <label for="agree">I Agree To Submit</label>
+                </div>
+
+                <hr>
+
+                <!-- <input type="button" value="Submit" class="submitBtn"> -->
+                <button type="submit" class="submitBtn">Submit</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
